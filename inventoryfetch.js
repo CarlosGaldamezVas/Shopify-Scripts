@@ -1,4 +1,4 @@
-const lineItem = document.querySelectorAll(".Polaris-Card__Section_1b1h1 .Polaris-Card__Subsection_197ob");
+const lineItem = document.querySelectorAll(".Polaris-Card__Section_1b1h1 ul > li");
 const brandURL = window.location.origin;
 
 lineItem.forEach((el)=> {
