@@ -1,5 +1,5 @@
-const lineItem = document.querySelectorAll(".Polaris-Card__Section_1b1h1 ul > li");
-const brandURL = window.location.origin;
+let lineItem = document.querySelectorAll(".Polaris-Card__Section_1b1h1 ul > li");
+let brandURL = window.location.origin;
 
 lineItem.forEach((el)=> {
     line = el.querySelector(".Polaris-Link_yj5sy")
