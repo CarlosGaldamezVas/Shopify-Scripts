@@ -1,7 +1,9 @@
-let lineItem = document.querySelectorAll(".Polaris-Card__Section_1b1h1 ul > li");
-let brandURL = window.location.origin;
+var lineItem = document.querySelectorAll(".Polaris-Card__Section_1b1h1 ul > li");
+var brandURL = window.location.origin;
 
-lineItem.forEach((el)=> {
+
+
+forEach((el)=> {
     line = el.querySelector(".Polaris-Link_yj5sy")
 
     if(line) {
@@ -19,10 +21,22 @@ lineItem.forEach((el)=> {
                 <th align="center" style="border-bottom: 1px solid #e1e3e5">
                     Inventory Qty
                 </th>
+                <th  align="center" style="border-bottom: 1px solid #e1e3e5">
+                    Inventory Policy
+                </th>
+                <th  align="center" style="border-bottom: 1px solid #e1e3e5">
+                    Inventory Tracker
+                </th>
             </tr>
             <tr >
                 <td align="center" style="padding: .5rem 0">
                     <span style="background-color:#91e0d6;padding:3px;border-radius:.5rem">${data.variant.inventory_quantity}</span>
+                </td>
+                <td align="center" style="padding: .5rem 0">
+                    <span style="background-color:#91e0d6;padding:3px;border-radius:.5rem">${data.variant.inventory_policy}</span>
+                </td>
+                <td align="center" style="padding: .5rem 0">
+                    <span style="background-color:#91e0d6;padding:3px;border-radius:.5rem">${data.variant.inventory_management}</span>
                 </td>
             </tr>`;
             datacont.style.border = "1px #e1e3e5 solid"
