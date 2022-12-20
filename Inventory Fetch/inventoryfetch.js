@@ -1,4 +1,4 @@
-var lineItem = document.querySelectorAll(".Polaris-Card__Section_1b1h1 ul > li");
+var lineItems = document.querySelectorAll(".Polaris-Card__Section_1b1h1 ul > li");
 var brandURL = window.location.origin;
 
 
