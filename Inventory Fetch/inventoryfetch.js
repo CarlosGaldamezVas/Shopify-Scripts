@@ -3,7 +3,7 @@ var brandURL = window.location.origin;
 
 
 
-forEach((el)=> {
+lineItems.forEach((el)=> {
     line = el.querySelector(".Polaris-Link_yj5sy")
 
     if(line) {
