@@ -92,7 +92,7 @@ unchecker("Restock item", "Restock Has Been Toggled", 600, "append");
 unchecker("Send a notification to the customer", "Notification Has Been Toggled", 600, "append");
 
 // Select all items for refund
-var qty = document.querySelectorAll(".Polaris-Card__Section_1b1h1 ul > li");
+var qty = document.querySelectorAll(".Polaris-LegacyCard__Section_1b1h1 ul > li");
 
 qty.forEach((el) => {
     header = el.querySelector(".Polaris-TextField__Input_30ock");
